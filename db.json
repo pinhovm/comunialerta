@@ -1,0 +1,96 @@
+{
+  "families": [
+    {
+      "id": "1",
+      "rua": "Rua Exemplo",
+      "cep": "58770707",
+      "numero": "0",
+      "headOfFamilyNickname": "Jose ",
+      "cellphoneHOF": "83195812935",
+      "email": "teste@teste.com",
+      "area": 1,
+      "microarea": 1,
+      "bairro": "Bairro 1",
+      "cidade": "Cidade 1",
+      "estado": "Estado 1",
+      "people": [
+        {
+          "id": "_88k66vvpw",
+          "name": "Jose Silva",
+          "cpf": "12345678901",
+          "age": "1999-05-05",
+          "cns": "12345123",
+          "sex": "M",
+          "diabetes": true,
+          "hypertension": true,
+          "heartProblem": false,
+          "isGestante": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "rua": "Rua dos Boboes",
+      "cep": "12345",
+      "numero": "1",
+      "headOfFamilyNickname": "",
+      "cellphoneHOF": "123412",
+      "email": "12341@ss.ccc",
+      "area": 1,
+      "microarea": 1,
+      "bairro": "Bairro 1",
+      "cidade": "Cidade 1",
+      "estado": "Estado 1",
+      "people": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "login": "sec01",
+      "password": "sec01",
+      "recoveryEmail": "sec01@yopmail.com",
+      "area": 1,
+      "microArea": 0,
+      "roleFilter": "SECRETARIO",
+      "isLogged": false,
+      "rua": "Rua 1",
+      "numero": "23",
+      "bairro": "Bairro 1",
+      "cidade": "Cidade 1",
+      "estado": "Estado 1",
+      "cep": "58000000"
+    },
+    {
+      "id": "2",
+      "login": "acs01",
+      "password": "acs01",
+      "recoveryEmail": "acs01@yopmail.com",
+      "area": 1,
+      "microArea": 1,
+      "roleFilter": "ACS",
+      "isLogged": false,
+      "rua": "Rua 2",
+      "numero": "23",
+      "bairro": "Bairro 1",
+      "cidade": "Cidade 1",
+      "estado": "Estado 1",
+      "cep": "58000000"
+    },
+    {
+      "id": "3",
+      "login": "admin",
+      "password": "admin",
+      "recoveryEmail": "admin@yopmail.com",
+      "area": 1,
+      "microArea": 1,
+      "roleFilter": "ADMIN",
+      "rua": "Rua 2",
+      "numero": "23",
+      "bairro": "Bairro 1",
+      "cidade": "Cidade 1",
+      "estado": "Estado 1",
+      "cep": "58000000"
+    }
+  ]
+}

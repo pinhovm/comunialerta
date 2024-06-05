@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@300&family=Quicksand&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #dff0f8;
+}
+
+/* branco fraco: #dff0f8; 
+azul: #93d7f5;
+
+*/

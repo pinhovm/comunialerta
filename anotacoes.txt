@@ -1,0 +1,14 @@
+const navigate = useNavigate();
+
+  const handleFamilyClick = (familyId: number) => {
+    navigate(`/family/${familyId}`); //Navigate para acessar os membros da familia clicada
+  };
+
+  const handleKeyDown = (
+    event: React.KeyboardEvent<HTMLDivElement>,
+    familyId: number
+  ) => {
+    if (event.key === "Enter") {
+      navigate(`/family/${familyId}`);
+    }
+  };
